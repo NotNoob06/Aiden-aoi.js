@@ -20,8 +20,9 @@ bot.variables({
 
 bot.status(require('./status.js'))
 const status = require("./status.js")
-
-bot.command({ //For activating all slash commands
+//・・・・・・・・・・・・・・・・・・
+//For activating all slash commands
+bot.command({ 
   name: "slash", 
   code: `
 $createSlashCommand[$guildID;avatar;Check mentioned user's avatar.;user:Please mention an user:true:6]
