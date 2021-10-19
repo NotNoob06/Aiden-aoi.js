@@ -29,4 +29,4 @@ $createSlashCommand[$guildID;avatar;Check mentioned user's avatar.;user:Please m
 
 `
 }) 
-keepAlive() 
+keepAlive() //For keeping the bot alive
