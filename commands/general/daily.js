@@ -13,7 +13,7 @@ $setUserVar[streak;$sum[$getUserVar[streak];1]]
 
 $setUserVar[cd;$sum[86400000;$dateStamp]]
 
-$setUserVar[point;$sum[$getUserVar[point];100;$multi[2;$getUserVar[streak]]]]
+$setUserVar[mns;$sum[$getUserVar[point];100;$multi[2;$getUserVar[streak]]]]
 $else
 $interactionReply[You already claimed your chest, wait **$humanizeMs[$sub[$getUserVar[cd];$dateStamp]]** time to get your next chest.;;;64]
 $endif
