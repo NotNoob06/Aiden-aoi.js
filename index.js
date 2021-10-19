@@ -21,4 +21,11 @@ bot.variables({
 bot.status(require('./status.js'))
 const status = require("./status.js")
 
+bot.command({
+  name: "active", 
+  code: `
+$createSlashCommand[$guildID;avatar;Check mentioned user's avatar.;user:Please mention an user:true:6]
+
+`
+}) 
 keepAlive() 
