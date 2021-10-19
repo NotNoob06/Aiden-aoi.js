@@ -9,13 +9,13 @@ const bot = new Aoijs.Bot({
 require('./callbacks')(bot)
 
 bot.variables({
-	safe: "B2FFB2", 
-	idle: "FFE2CB", 
+	safe: "B2FFB2",
+	idle: "FFE2CB",
 	dang: "FEB2B2",
-  invite: "0", 
-	streak: "0", 
-  point: "0", 
-	cd: "0"
+	streak: "0",
+	cd: "0",
+        invite: "0",
+        point: "0"
 })
 
 bot.status(require('./status.js'))
